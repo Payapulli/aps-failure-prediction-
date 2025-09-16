@@ -85,24 +85,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/aps_failure_analysis.ipynb
 ```
 
-## 📁 Project Structure
-
-```
-aps-failure-prediction/
-├── data/
-│   ├── aps_failure_training_set.csv
-│   ├── aps_failure_test_set.csv
-│   └── aps_failure_description.txt
-├── notebooks/
-│   └── aps_failure_analysis.ipynb
-├── results/
-│   └── (generated visualizations)
-├── src/
-│   └── (utility functions)
-├── requirements.txt
-└── README.md
-```
-
 ## 🔍 Key Insights
 
 1. **Feature Engineering**: Coefficient of variation analysis revealed the most variable features
@@ -110,34 +92,7 @@ aps-failure-prediction/
 3. **Model Performance**: XGBoost slightly outperformed Random Forest
 4. **Business Value**: High accuracy enables reliable predictive maintenance
 
-## 🎯 Business Impact
-
-- **Predictive Maintenance**: Early failure detection reduces unplanned downtime
-- **Cost Savings**: Prevents expensive emergency repairs
-- **Operational Efficiency**: Optimizes maintenance scheduling
-- **Safety**: Reduces risk of equipment failure during operation
-
-## 📚 Technical Skills Demonstrated
-
-- **Machine Learning**: Random Forest, XGBoost, Cross-validation
-- **Data Preprocessing**: Missing value imputation, feature engineering
-- **Class Imbalance**: SMOTE, class weights, performance analysis
-- **Model Evaluation**: ROC curves, confusion matrices, AUC scores
-- **Data Visualization**: Correlation matrices, scatter plots, box plots
-- **Python Libraries**: scikit-learn, XGBoost, pandas, matplotlib, seaborn
-
-## 📄 License
-
-This project uses the Scania APS Failure dataset, which is licensed under the GNU General Public License v3.0.
-
 ## 👨‍💻 Author
 
 **Joshua Payapulli**
 - GitHub: [@Payapulli](https://github.com/Payapulli)
-- USC ID: 3751786221
-
-## 🙏 Acknowledgments
-
-- Scania CV AB for providing the dataset
-- University of Southern California for course materials
-- The open-source ML community for excellent libraries
