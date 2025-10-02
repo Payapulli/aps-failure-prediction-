@@ -157,3 +157,4 @@ def evaluate_model_performance(y_true, y_pred, y_prob=None):
         metrics['auc'] = roc_auc_score(y_true, y_prob)
     
     return metrics
+
